@@ -1,6 +1,10 @@
-# Pre-launch verification
+# Private pilot and broader-release review
 
-Status: **OPEN — policies remain drafts**. Prepared November 25, 2026.
+Status: **Restricted text-chat pilot policy review completed November 25, 2026; authenticated Discord startup and live acceptance pending. No public rollout.**
+
+Reviewed pilot facts: only the current slash-command input and fixed character instructions go to the operator-controlled local AI service; replies are channel-visible; the connector has no conversation-history store, account-data access, household tools or cloud-AI route. Connector operational logs are bounded, inference-service debug mode is off and proxy access logging is off. These checks do not establish zero retention, secure erasure or complete deletion from independent providers, support mail or backups. The published policies explain those limits.
+
+The items below remain the broader-release review checklist. Checked code/configuration properties do not replace authenticated Discord acceptance, operator review for expanded audiences or legal requirements applicable to that expansion.
 
 Record evidence in private operational records. Publish only the user-facing findings needed for accurate disclosure. None of the unchecked items below is a statement that a feature or safeguard is implemented.
 
@@ -13,7 +17,7 @@ Record evidence in private operational records. Publish only the user-facing fin
 - [ ] Verify security controls, access restrictions, credential handling and incident response. Review Discord's notification duties and applicable law; publish only accurate security statements.
 - [ ] Confirm purposes, sharing, any sale/advertising/training uses, applicable legal bases and user rights. Review the audience and jurisdictions served, minors' requirements and any required notices or consent before processing.
 - [ ] Review Terms for the actual operator and jurisdictions. Keep legally required consumer and privacy rights intact. No governing law, arbitration clause or invented legal entity has been assumed in these drafts.
-- [ ] Replace all policy draft banners and unresolved statements only after review. Set effective dates, retain version history and choose a material-change notification method.
+- [x] Replace draft placeholders for the restricted pilot with reviewed practices, a dated pilot applicability statement and a material-change notification method. Retain version history. Re-review before expansion.
 - [ ] Verify that the final policy links are publicly reachable over HTTPS and accessible within the bot before use. Populate the Discord Developer Portal with the final Terms and Privacy URLs.
 - [ ] Verify private access and actual basic text-chat behavior. Keep public invitation and additional feature claims absent until intentionally approved.
 
